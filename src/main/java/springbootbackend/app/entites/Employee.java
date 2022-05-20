@@ -1,7 +1,6 @@
-package springbootbackend.app.model;
+package springbootbackend.app.entites;
 
 import lombok.Data;
-import lombok.Generated;
 
 import javax.persistence.*;
 
@@ -22,14 +21,8 @@ public class Employee {
     @Column(name = "email_id")
     private String emailId;
 
-    public Employee(){
-
-    }
 
 
-    public Employee(String firstName, String lastName, String emailId) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.emailId = emailId;
-    }
+
+
 }
